@@ -1,0 +1,293 @@
+/* Responsive Design - Mobile and Tablet Styles */
+
+/* Mobile Devices (screens up to 768px) */
+@media (max-width: 768px) {
+
+    * {
+        font-family: Bai Jamjuree;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding-top: 4em;
+        min-height: auto;
+        background-image: url(../imgs/bg-header-mobile.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .hero .text {
+        max-width: 100%;
+        padding: 0 1.5em;
+    }
+
+    .button {
+        flex-direction: column;
+        gap: 0.8em;
+        padding: 0 1.5em;
+        width: 100%;
+    }
+
+    .button a {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .snippets {
+        padding: 0 1.5em;
+        margin-bottom: 40px;
+    }
+
+    .snippets p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        gap: 2em;
+        margin-bottom: 40px;
+        padding: 0 1.5em;
+    }
+
+    .comp-img img {
+        left: 0;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .benefits {
+        gap: 2em;
+        max-width: 100%;
+    }
+
+    .access {
+        gap: 2em;
+        padding: 0 1.5em;
+        margin-bottom: 40px;
+    }
+
+    .access .text {
+        max-width: 100%;
+    }
+
+    .access .devices-img img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .workflow {
+        padding: 0 1.5em;
+        margin-bottom: 30px;
+    }
+
+    .workflow .cards {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .workflow .cards .card {
+        max-width: 100%;
+        padding: 1.5em;
+    }
+
+    .icons {
+        flex-direction: column;
+        gap: 4em;
+        padding: 2em 1.5em;
+    }
+
+    .icons img {
+        max-width: 120px;
+    }
+
+    .for-ios {
+        padding: 2em 1.5em;
+        gap: 2em;
+    }
+
+    .for-ios .text {
+        max-width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 2em;
+        padding: 2em 1.5em;
+        text-align: center;
+    }
+
+    footer .links {
+        padding: 0;
+        flex-direction: column;
+        gap: 1em;
+        order: 3;
+    }
+
+    footer .links a {
+        flex: 0 1 auto;
+        font-size: 16px;
+    }
+
+    footer .social {
+        order: 2;
+        justify-content: center;
+    }
+
+    footer .c {
+        order: 1;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+/* Tablets (screens from 769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding-top: 5em;
+        background-image: url(../imgs/bg-header-desktop.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .hero .text {
+        max-width: 100%;
+        padding: 0 2em;
+    }
+
+    .button {
+        flex-direction: column;
+        gap: 0.8em;
+        padding: 0 2em;
+    }
+
+    .button a {
+        width: 100%;
+    }
+
+    .snippets {
+        padding: 0 2em;
+        margin-bottom: 60px;
+    }
+
+    .snippets p {
+        max-width: 100%;
+    }
+
+    .advantages {
+        flex-direction: column;
+        gap: 3em;
+        margin-bottom: 60px;
+        padding: 0 2em;
+    }
+
+    .comp-img img {
+        left: 0;
+        width: 100%;
+    }
+
+    .benefits {
+        max-width: 100%;
+        gap: 2em;
+    }
+
+    .access {
+        gap: 3em;
+        padding: 0 2em;
+        margin-bottom: 40px;
+    }
+
+    .access .text {
+        max-width: 100%;
+    }
+
+    .access .devices-img img {
+        width: 100%;
+    }
+
+    .workflow {
+        padding: 0 2em;
+        margin-bottom: 40px;
+    }
+
+    .workflow .cards {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .workflow .cards .card {
+        max-width: 100%;
+    }
+
+    .icons {
+        gap: 1.5em;
+        padding: 3em 2em;
+    }
+
+    .for-ios {
+        padding: 2em 2em 3em 2em;
+    }
+
+    .for-ios .text {
+        max-width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 2em;
+        padding: 2em;
+        text-align: center;
+    }
+
+    footer .links {
+        padding: 0;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    footer .links a {
+        font-size: 16px;
+    }
+
+    footer .social {
+        justify-content: center;
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media (min-width: 1025px) {
+    .hero {
+        background-image: url(../imgs/bg-header-desktop.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .comp-img img {
+        left: -30px;
+    }
+
+    .advantages {
+        gap: 6em;
+    }
+}
